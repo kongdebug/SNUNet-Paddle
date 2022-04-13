@@ -13,7 +13,7 @@
 # limitations under the License.
 
 import sys
-sys.path.append('../PaddleRS')
+sys.path.append('../SNUNet-Paddle')
 import os
 import argparse
 

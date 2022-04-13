@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 import sys
-sys.path.append('../PaddleRS')
+sys.path.append('../SNUNet-Paddle')
 import os
 import argparse
 from ast import literal_eval

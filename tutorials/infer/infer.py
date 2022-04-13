@@ -1,5 +1,5 @@
 import sys
-sys.path.append('../PaddleRS')
+sys.path.append('../SNUNet-Paddle')
 import os
 import cv2
 import argparse

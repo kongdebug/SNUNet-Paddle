@@ -10,7 +10,7 @@ SNUNet-CD: [A Densely Connected Siamese Network for Change Detection of VHR Imag
 
 ## 2.复现精度
 
-在CDDD的测试集的测试效果如下表,达到验收指标，F1-Score=95.3%
+在CDD的测试集的测试效果如下表,达到验收指标，F1-Score=95.3%
 
 
 | Network | opt | epoch | batch_size | dataset | F1-Score | mIOU |
@@ -119,7 +119,18 @@ W0412 12:24:42.913775 21281 device_context.cc:465] device: 0, cuDNN Version: 7.6
 2022-04-12 12:24:45 [INFO]	Start to evaluate(total_samples=3000, total_steps=3000)...
 OrderedDict([('miou', 0.9511789327930941), ('category_iou', array([0.98762963, 0.91472823])), ('oacc', 0.989078862508138), ('category_acc', array([0.99284724, 0.96190638])), ('kappa', 0.9492419817634077), ('category_F1-score', array([0.99377632, 0.95546534]))])
 ```
+### 模型预测
+本项目提供预测脚本`tutorials\predict\snunet_pred.py`，设置以下参数就可直接运行
+- args.weight 训练好的权重
+- args.A,args.B,是T1影像路径,T2影像路径
+- args.pre 预测图片存储的位置
 
+```shell
+python tutorials/predict/snunet_pred.py --weight=./output/snunet/best_model/model.pdparams --A=../work/Real/subset/test/A/00002.jpg --B=../work/Real/subset/test/B/00002.jpg \
+--pre=../work/pre.png
+```
+
+**模型导出与部署的README.md[点击此处](/tutorials/infer/README.md)**
 
 ### TIPC基础链条测试
 
@@ -175,6 +186,6 @@ SNUNet-Paddle
 | 信息 | 描述 |
 | --- | --- |
 |模型名称| SNUNET-CD |
-|框架版本| PaddlePaddle==2.2.0|
+|框架版本| PaddlePaddle==2.2.2|
 |应用场景| 遥感图像变化检测 |
 

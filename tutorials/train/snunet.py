@@ -3,7 +3,7 @@
 # 变化检测模型SNUNet训练示例脚本
 # 执行此脚本前，请确认已正确安装PaddleRS库
 import sys
-sys.path.append('/home/aistudio/PaddleRS')
+sys.path.append('../SNUNet-Paddle')
 import paddle
 import os
 import argparse
