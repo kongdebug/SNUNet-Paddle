@@ -26,11 +26,9 @@ def predict(args):
     t2 = image["image2"].transpose((2, 0, 1))
     t1 = paddle.to_tensor(t1).unsqueeze(0)
     t2 = paddle.to_tensor(t2).unsqueeze(0)
-    pred = model(t1, t2)[0].squeeze(0)[1]
-    pred = pred.numpy()
-    vis = pred > 0.5 
+    vis = paddle.argmax(model(t1, t2)[-1], 1)[0].numpy()
     vis = vis.astype("uint8")*255
-    cv2.imwrite(args.pre,vis)
+    cv2.imwrite(args.pre, vis)
     print('finish!')
     
 
