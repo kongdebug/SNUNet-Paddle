@@ -156,6 +156,12 @@ bash test_tipc/test_train_inference_python.sh test_tipc/configs/SNUNET/train_inf
 
 <img src=./docs/images/TIPC_result.png></img>
 
+**TIPC 完整时间戳记录**
+![BN_ACIHY_G01NCT60JVFYF4](https://user-images.githubusercontent.com/52785738/164231904-810751f1-3123-4f0d-9660-d90dc457b961.png)
+![~G4)NDH{YO1BFY8`7)PW{U7](https://user-images.githubusercontent.com/52785738/164231944-25f316fb-d590-43e1-b4a3-dd559f5b2ed6.png)
+![GPJS@{ZH$F MVI$KFW_3IO9](https://user-images.githubusercontent.com/52785738/164232184-599e00ed-7631-40be-95af-75f6546868e3.png)
+![1Z~JEYOXE_3KC%I4YGY7TN5](https://user-images.githubusercontent.com/52785738/164232668-13c9e203-3774-4001-bc47-6262f421aa52.png)
+
 ## 6.代码结构与详细说明
 
 ```
