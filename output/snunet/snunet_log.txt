@@ -1,0 +1,219 @@
+[04-20 20:33:16 MainThread @logger.py:242] Argv: tutorials/eval/snunet_eval.py --data_dir=../work/Real/subset --weight_path=../work/output/snunet/epoch_5/model.pdparams
+[04-20 20:33:16 MainThread @utils.py:79] WRN paddlepaddle version: 2.2.2. The dynamic graph version of PARL is under development, not fully tested and supported
+2022-04-20 20:33:17 [INFO]	10000 samples in file ../work/Real/subset/train.txt
+2022-04-20 20:33:17 [INFO]	3000 samples in file ../work/Real/subset/test.txt
+W0420 20:33:17.579180   761 device_context.cc:447] Please NOTE: device: 0, GPU Compute Capability: 7.0, Driver API Version: 11.0, Runtime API Version: 10.1
+W0420 20:33:17.583521   761 device_context.cc:465] device: 0, cuDNN Version: 7.6.
+2022-04-20 20:33:20 [INFO]	Loading pretrained model from ../work/output/snunet/epoch_5/model.pdparams
+2022-04-20 20:33:20 [INFO]	There are 186/186 variables loaded into SNUNet.
+2022-04-20 20:33:20 [INFO]	Start to evaluate(total_samples=3000, total_steps=3000)...
+miou:0.7726926917164976, F1-Score:[0.97098034 0.75139525]
+
+[04-20 20:33:55 MainThread @logger.py:242] Argv: tutorials/eval/snunet_eval.py --data_dir=../work/Real/subset --weight_path=../work/output/snunet/epoch_10/model.pdparams
+[04-20 20:33:55 MainThread @utils.py:79] WRN paddlepaddle version: 2.2.2. The dynamic graph version of PARL is under development, not fully tested and supported
+2022-04-20 20:33:56 [INFO]      10000 samples in file ../work/Real/subset/train.txt
+2022-04-20 20:33:56 [INFO]      3000 samples in file ../work/Real/subset/test.txt
+W0420 20:33:56.451839   837 device_context.cc:447] Please NOTE: device: 0, GPU Compute Capability: 7.0, Driver API Version: 11.0, Runtime API Version: 10.1
+W0420 20:33:56.458125   837 device_context.cc:465] device: 0, cuDNN Version: 7.6.
+2022-04-20 20:33:59 [INFO]      Loading pretrained model from ../work/output/snunet/epoch_10/model.pdparams
+2022-04-20 20:33:59 [INFO]      There are 186/186 variables loaded into SNUNet.
+2022-04-20 20:33:59 [INFO]      Start to evaluate(total_samples=3000, total_steps=3000)...
+miou:0.8592964102026452, F1-Score:[0.9812381  0.86067513]
+
+[04-20 20:45:36 MainThread @logger.py:242] Argv: tutorials/eval/snunet_eval.py --data_dir=../work/Real/subset --weight_path=../work/output/snunet/epoch_15/model.pdparams
+[04-20 20:45:36 MainThread @utils.py:79] WRN paddlepaddle version: 2.2.2. The dynamic graph version of PARL is under development, not fully tested and supported
+2022-04-20 20:45:37 [INFO]	10000 samples in file ../work/Real/subset/train.txt
+2022-04-20 20:45:37 [INFO]	3000 samples in file ../work/Real/subset/test.txt
+W0420 20:45:37.513391  1658 device_context.cc:447] Please NOTE: device: 0, GPU Compute Capability: 7.0, Driver API Version: 11.0, Runtime API Version: 10.1
+W0420 20:45:37.524060  1658 device_context.cc:465] device: 0, cuDNN Version: 7.6.
+2022-04-20 20:45:40 [INFO]	Loading pretrained model from ../work/output/snunet/epoch_15/model.pdparams
+2022-04-20 20:45:41 [INFO]	There are 186/186 variables loaded into SNUNet.
+2022-04-20 20:45:41 [INFO]	Start to evaluate(total_samples=3000, total_steps=3000)...
+miou:0.8813041569999138, F1-Score:[0.98391774 0.88533667]
+
+[04-20 20:45:43 MainThread @logger.py:242] Argv: tutorials/eval/snunet_eval.py --data_dir=../work/Real/subset --weight_path=../work/output/snunet/epoch_20/model.pdparams
+[04-20 20:45:43 MainThread @utils.py:79] WRN paddlepaddle version: 2.2.2. The dynamic graph version of PARL is under development, not fully tested and supported
+2022-04-20 20:45:44 [INFO]      10000 samples in file ../work/Real/subset/train.txt
+2022-04-20 20:45:44 [INFO]      3000 samples in file ../work/Real/subset/test.txt
+W0420 20:45:44.141940  1698 device_context.cc:447] Please NOTE: device: 0, GPU Compute Capability: 7.0, Driver API Version: 11.0, Runtime API Version: 10.1
+W0420 20:45:44.146325  1698 device_context.cc:465] device: 0, cuDNN Version: 7.6.
+2022-04-20 20:45:46 [INFO]      Loading pretrained model from ../work/output/snunet/epoch_20/model.pdparams
+2022-04-20 20:45:46 [INFO]      There are 186/186 variables loaded into SNUNet.
+2022-04-20 20:45:46 [INFO]      Start to evaluate(total_samples=3000, total_steps=3000)...
+miou:0.9142449527410873, F1-Score:[0.98885843 0.9192271 ]
+
+[04-20 20:49:17 MainThread @logger.py:242] Argv: tutorials/eval/snunet_eval.py --data_dir=../work/Real/subset --weight_path=../work/output/snunet/epoch_25/model.pdparams
+[04-20 20:49:17 MainThread @utils.py:79] WRN paddlepaddle version: 2.2.2. The dynamic graph version of PARL is under development, not fully tested and supported
+2022-04-20 20:49:17 [INFO]	10000 samples in file ../work/Real/subset/train.txt
+2022-04-20 20:49:17 [INFO]	3000 samples in file ../work/Real/subset/test.txt
+W0420 20:49:17.892737  1968 device_context.cc:447] Please NOTE: device: 0, GPU Compute Capability: 7.0, Driver API Version: 11.0, Runtime API Version: 10.1
+W0420 20:49:17.897328  1968 device_context.cc:465] device: 0, cuDNN Version: 7.6.
+2022-04-20 20:49:20 [INFO]	Loading pretrained model from ../work/output/snunet/epoch_25/model.pdparams
+2022-04-20 20:49:20 [INFO]	There are 186/186 variables loaded into SNUNet.
+2022-04-20 20:49:20 [INFO]	Start to evaluate(total_samples=3000, total_steps=3000)...
+miou:0.9305236472295597, F1-Score:[0.99108539 0.93544483]
+
+[04-20 20:49:36 MainThread @logger.py:242] Argv: tutorials/eval/snunet_eval.py --data_dir=../work/Real/subset --weight_path=../work/output/snunet/epoch_30/model.pdparams
+[04-20 20:49:36 MainThread @utils.py:79] WRN paddlepaddle version: 2.2.2. The dynamic graph version of PARL is under development, not fully tested and supported
+2022-04-20 20:49:36 [INFO]      10000 samples in file ../work/Real/subset/train.txt
+2022-04-20 20:49:36 [INFO]      3000 samples in file ../work/Real/subset/test.txt
+W0420 20:49:36.888418  2021 device_context.cc:447] Please NOTE: device: 0, GPU Compute Capability: 7.0, Driver API Version: 11.0, Runtime API Version: 10.1
+W0420 20:49:36.892822  2021 device_context.cc:465] device: 0, cuDNN Version: 7.6.
+2022-04-20 20:49:39 [INFO]      Loading pretrained model from ../work/output/snunet/epoch_30/model.pdparams
+2022-04-20 20:49:39 [INFO]      There are 186/186 variables loaded into SNUNet.
+2022-04-20 20:49:39 [INFO]      Start to evaluate(total_samples=3000, total_steps=3000)...
+miou:0.9332666986487905, F1-Score:[0.99138443 0.93821321]
+
+[04-20 20:53:06 MainThread @logger.py:242] Argv: tutorials/eval/snunet_eval.py --data_dir=../work/Real/subset --weight_path=../work/output/snunet/epoch_35/model.pdparams
+[04-20 20:53:06 MainThread @utils.py:79] WRN paddlepaddle version: 2.2.2. The dynamic graph version of PARL is under development, not fully tested and supported
+2022-04-20 20:53:07 [INFO]	10000 samples in file ../work/Real/subset/train.txt
+2022-04-20 20:53:07 [INFO]	3000 samples in file ../work/Real/subset/test.txt
+W0420 20:53:07.237689  2326 device_context.cc:447] Please NOTE: device: 0, GPU Compute Capability: 7.0, Driver API Version: 11.0, Runtime API Version: 10.1
+W0420 20:53:07.242022  2326 device_context.cc:465] device: 0, cuDNN Version: 7.6.
+2022-04-20 20:53:09 [INFO]	Loading pretrained model from ../work/output/snunet/epoch_35/model.pdparams
+2022-04-20 20:53:09 [INFO]	There are 186/186 variables loaded into SNUNet.
+2022-04-20 20:53:09 [INFO]	Start to evaluate(total_samples=3000, total_steps=3000)...
+miou:0.9423691429982397, F1-Score:[0.99266544 0.9469808 ]
+
+[04-20 20:54:11 MainThread @logger.py:242] Argv: tutorials/eval/snunet_eval.py --data_dir=../work/Real/subset --weight_path=../work/output/snunet/epoch_40/model.pdparams
+[04-20 20:54:11 MainThread @utils.py:79] WRN paddlepaddle version: 2.2.2. The dynamic graph version of PARL is under development, not fully tested and supported
+2022-04-20 20:54:12 [INFO]      10000 samples in file ../work/Real/subset/train.txt
+2022-04-20 20:54:12 [INFO]      3000 samples in file ../work/Real/subset/test.txt
+W0420 20:54:12.413864  2439 device_context.cc:447] Please NOTE: device: 0, GPU Compute Capability: 7.0, Driver API Version: 11.0, Runtime API Version: 10.1
+W0420 20:54:12.418481  2439 device_context.cc:465] device: 0, cuDNN Version: 7.6.
+2022-04-20 20:54:15 [INFO]      Loading pretrained model from ../work/output/snunet/epoch_40/model.pdparams
+2022-04-20 20:54:15 [INFO]      There are 186/186 variables loaded into SNUNet.
+2022-04-20 20:54:15 [INFO]      Start to evaluate(total_samples=3000, total_steps=3000)...
+miou:0.9458780507089134, F1-Score:[0.99305926 0.9504298 ]
+
+[04-20 20:57:46 MainThread @logger.py:242] Argv: tutorials/eval/snunet_eval.py --data_dir=../work/Real/subset --weight_path=../work/output/snunet/epoch_45/model.pdparams
+[04-20 20:57:46 MainThread @utils.py:79] WRN paddlepaddle version: 2.2.2. The dynamic graph version of PARL is under development, not fully tested and supported
+2022-04-20 20:57:47 [INFO]	10000 samples in file ../work/Real/subset/train.txt
+2022-04-20 20:57:47 [INFO]	3000 samples in file ../work/Real/subset/test.txt
+W0420 20:57:47.125144  2713 device_context.cc:447] Please NOTE: device: 0, GPU Compute Capability: 7.0, Driver API Version: 11.0, Runtime API Version: 10.1
+W0420 20:57:47.129547  2713 device_context.cc:465] device: 0, cuDNN Version: 7.6.
+2022-04-20 20:57:49 [INFO]	Loading pretrained model from ../work/output/snunet/epoch_45/model.pdparams
+2022-04-20 20:57:49 [INFO]	There are 186/186 variables loaded into SNUNet.
+2022-04-20 20:57:49 [INFO]	Start to evaluate(total_samples=3000, total_steps=3000)...
+miou:0.9477012935354632, F1-Score:[0.99331105 0.95216178]
+
+[04-20 20:59:15 MainThread @utils.py:79] WRN paddlepaddle version: 2.2.2. The dynamic graph version of PARL is under development, not fully tested and supported
+2022-04-20 20:59:16 [INFO]      10000 samples in file ../work/Real/subset/train.txt
+2022-04-20 20:59:16 [INFO]      3000 samples in file ../work/Real/subset/test.txt
+W0420 20:59:16.103368  2836 device_context.cc:447] Please NOTE: device: 0, GPU Compute Capability: 7.0, Driver API Version: 11.0, Runtime API Version: 10.1
+W0420 20:59:16.107622  2836 device_context.cc:465] device: 0, cuDNN Version: 7.6.
+2022-04-20 20:59:18 [INFO]      Loading pretrained model from ../work/output/snunet/epoch_50/model.pdparams
+2022-04-20 20:59:18 [INFO]      There are 186/186 variables loaded into SNUNet.
+2022-04-20 20:59:18 [INFO]      Start to evaluate(total_samples=3000, total_steps=3000)...
+miou:0.9493505915961711, F1-Score:[0.99354004 0.95372218]
+
+[04-20 21:00:48 MainThread @logger.py:242] Argv: tutorials/eval/snunet_eval.py --data_dir=../work/Real/subset --weight_path=../work/output/snunet/epoch_55/model.pdparams
+[04-20 21:00:48 MainThread @utils.py:79] WRN paddlepaddle version: 2.2.2. The dynamic graph version of PARL is under development, not fully tested and supported
+2022-04-20 21:00:49 [INFO]	10000 samples in file ../work/Real/subset/train.txt
+2022-04-20 21:00:49 [INFO]	3000 samples in file ../work/Real/subset/test.txt
+W0420 21:00:49.709295  3000 device_context.cc:447] Please NOTE: device: 0, GPU Compute Capability: 7.0, Driver API Version: 11.0, Runtime API Version: 10.1
+W0420 21:00:49.714152  3000 device_context.cc:465] device: 0, cuDNN Version: 7.6.
+2022-04-20 21:00:52 [INFO]	Loading pretrained model from ../work/output/snunet/epoch_55/model.pdparams
+2022-04-20 21:00:52 [INFO]	There are 186/186 variables loaded into SNUNet.
+2022-04-20 21:00:52 [INFO]	Start to evaluate(total_samples=3000, total_steps=3000)...
+miou:0.9499246153428944, F1-Score:[0.99360714 0.95427774]
+
+[04-20 21:02:33 MainThread @logger.py:242] Argv: tutorials/eval/snunet_eval.py --data_dir=../work/Real/subset --weight_path=../work/output/snunet/epoch_60/model.pdparams
+[04-20 21:02:33 MainThread @utils.py:79] WRN paddlepaddle version: 2.2.2. The dynamic graph version of PARL is under development, not fully tested and supported
+2022-04-20 21:02:34 [INFO]      10000 samples in file ../work/Real/subset/train.txt
+2022-04-20 21:02:34 [INFO]      3000 samples in file ../work/Real/subset/test.txt
+W0420 21:02:34.647171  3134 device_context.cc:447] Please NOTE: device: 0, GPU Compute Capability: 7.0, Driver API Version: 11.0, Runtime API Version: 10.1
+W0420 21:02:34.652860  3134 device_context.cc:465] device: 0, cuDNN Version: 7.6.
+2022-04-20 21:02:37 [INFO]      Loading pretrained model from ../work/output/snunet/epoch_60/model.pdparams
+2022-04-20 21:02:37 [INFO]      There are 186/186 variables loaded into SNUNet.
+2022-04-20 21:02:37 [INFO]      Start to evaluate(total_samples=3000, total_steps=3000)...
+miou:0.9503818242629463, F1-Score:[0.99367449 0.95470482]
+
+[04-20 21:03:36 MainThread @logger.py:242] Argv: tutorials/eval/snunet_eval.py --data_dir=../work/Real/subset --weight_path=../work/output/snunet/epoch_65/model.pdparams
+[04-20 21:03:36 MainThread @utils.py:79] WRN paddlepaddle version: 2.2.2. The dynamic graph version of PARL is under development, not fully tested and supported
+2022-04-20 21:03:38 [INFO]	10000 samples in file ../work/Real/subset/train.txt
+2022-04-20 21:03:38 [INFO]	3000 samples in file ../work/Real/subset/test.txt
+W0420 21:03:38.297823  3247 device_context.cc:447] Please NOTE: device: 0, GPU Compute Capability: 7.0, Driver API Version: 11.0, Runtime API Version: 10.1
+W0420 21:03:38.310284  3247 device_context.cc:465] device: 0, cuDNN Version: 7.6.
+2022-04-20 21:03:42 [INFO]	Loading pretrained model from ../work/output/snunet/epoch_65/model.pdparams
+2022-04-20 21:03:42 [INFO]	There are 186/186 variables loaded into SNUNet.
+2022-04-20 21:03:42 [INFO]	Start to evaluate(total_samples=3000, total_steps=3000)...
+miou:0.950648453552493, F1-Score:[0.99370963 0.95495818]
+
+[04-20 21:05:36 MainThread @logger.py:242] Argv: tutorials/eval/snunet_eval.py --data_dir=../work/Real/subset --weight_path=../work/output/snunet/epoch_70/model.pdparams
+[04-20 21:05:36 MainThread @utils.py:79] WRN paddlepaddle version: 2.2.2. The dynamic graph version of PARL is under development, not fully tested and supported
+2022-04-20 21:05:37 [INFO]      10000 samples in file ../work/Real/subset/train.txt
+2022-04-20 21:05:37 [INFO]      3000 samples in file ../work/Real/subset/test.txt
+W0420 21:05:37.672219  3429 device_context.cc:447] Please NOTE: device: 0, GPU Compute Capability: 7.0, Driver API Version: 11.0, Runtime API Version: 10.1
+W0420 21:05:37.676754  3429 device_context.cc:465] device: 0, cuDNN Version: 7.6.
+2022-04-20 21:05:40 [INFO]      Loading pretrained model from ../work/output/snunet/epoch_70/model.pdparams
+2022-04-20 21:05:40 [INFO]      There are 186/186 variables loaded into SNUNet.
+2022-04-20 21:05:40 [INFO]      Start to evaluate(total_samples=3000, total_steps=3000)...
+miou:0.9509418389746489, F1-Score:[0.9937444  0.95524101]
+
+[04-20 21:07:49 MainThread @logger.py:242] Argv: tutorials/eval/snunet_eval.py --data_dir=../work/Real/subset --weight_path=../work/output/snunet/epoch_75/model.pdparams
+[04-20 21:07:49 MainThread @utils.py:79] WRN paddlepaddle version: 2.2.2. The dynamic graph version of PARL is under development, not fully tested and supported
+2022-04-20 21:07:49 [INFO]	10000 samples in file ../work/Real/subset/train.txt
+2022-04-20 21:07:49 [INFO]	3000 samples in file ../work/Real/subset/test.txt
+W0420 21:07:49.824843  3614 device_context.cc:447] Please NOTE: device: 0, GPU Compute Capability: 7.0, Driver API Version: 11.0, Runtime API Version: 10.1
+W0420 21:07:49.829931  3614 device_context.cc:465] device: 0, cuDNN Version: 7.6.
+2022-04-20 21:07:52 [INFO]	Loading pretrained model from ../work/output/snunet/epoch_75/model.pdparams
+2022-04-20 21:07:52 [INFO]	There are 186/186 variables loaded into SNUNet.
+2022-04-20 21:07:52 [INFO]	Start to evaluate(total_samples=3000, total_steps=3000)...
+miou:0.951003278254548, F1-Score:[0.99375121 0.95530073]
+
+[04-20 21:09:20 MainThread @logger.py:242] Argv: tutorials/eval/snunet_eval.py --data_dir=../work/Real/subset --weight_path=../work/output/snunet/epoch_80/model.pdparams
+[04-20 21:09:20 MainThread @utils.py:79] WRN paddlepaddle version: 2.2.2. The dynamic graph version of PARL is under development, not fully tested and supported
+2022-04-20 21:09:20 [INFO]      10000 samples in file ../work/Real/subset/train.txt
+2022-04-20 21:09:20 [INFO]      3000 samples in file ../work/Real/subset/test.txt
+W0420 21:09:20.860946  3738 device_context.cc:447] Please NOTE: device: 0, GPU Compute Capability: 7.0, Driver API Version: 11.0, Runtime API Version: 10.1
+W0420 21:09:20.865247  3738 device_context.cc:465] device: 0, cuDNN Version: 7.6.
+2022-04-20 21:09:23 [INFO]      Loading pretrained model from ../work/output/snunet/epoch_80/model.pdparams
+2022-04-20 21:09:23 [INFO]      There are 186/186 variables loaded into SNUNet.
+2022-04-20 21:09:23 [INFO]      Start to evaluate(total_samples=3000, total_steps=3000)...
+miou:0.9510448172531921, F1-Score:[0.99375522 0.95534174]
+
+[04-20 21:11:44 MainThread @logger.py:242] Argv: tutorials/eval/snunet_eval.py --data_dir=../work/Real/subset --weight_path=../work/output/snunet/epoch_85/model.pdparams
+[04-20 21:11:44 MainThread @utils.py:79] WRN paddlepaddle version: 2.2.2. The dynamic graph version of PARL is under development, not fully tested and supported
+2022-04-20 21:11:45 [INFO]	10000 samples in file ../work/Real/subset/train.txt
+2022-04-20 21:11:45 [INFO]	3000 samples in file ../work/Real/subset/test.txt
+W0420 21:11:45.580801  3930 device_context.cc:447] Please NOTE: device: 0, GPU Compute Capability: 7.0, Driver API Version: 11.0, Runtime API Version: 10.1
+W0420 21:11:45.585359  3930 device_context.cc:465] device: 0, cuDNN Version: 7.6.
+2022-04-20 21:11:47 [INFO]	Loading pretrained model from ../work/output/snunet/epoch_85/model.pdparams
+2022-04-20 21:11:48 [INFO]	There are 186/186 variables loaded into SNUNet.
+2022-04-20 21:11:48 [INFO]	Start to evaluate(total_samples=3000, total_steps=3000)...
+miou:0.9510796191658091, F1-Score:[0.99375978 0.95537481]
+
+[04-20 21:12:57 MainThread @logger.py:242] Argv: tutorials/eval/snunet_eval.py --data_dir=../work/Real/subset --weight_path=../work/output/snunet/epoch_90/model.pdparams
+[04-20 21:12:57 MainThread @utils.py:79] WRN paddlepaddle version: 2.2.2. The dynamic graph version of PARL is under development, not fully tested and supported
+2022-04-20 21:12:59 [INFO]      10000 samples in file ../work/Real/subset/train.txt
+2022-04-20 21:12:59 [INFO]      3000 samples in file ../work/Real/subset/test.txt
+W0420 21:12:59.125403  4091 device_context.cc:447] Please NOTE: device: 0, GPU Compute Capability: 7.0, Driver API Version: 11.0, Runtime API Version: 10.1
+W0420 21:12:59.131258  4091 device_context.cc:465] device: 0, cuDNN Version: 7.6.
+2022-04-20 21:13:02 [INFO]      Loading pretrained model from ../work/output/snunet/epoch_90/model.pdparams
+2022-04-20 21:13:02 [INFO]      There are 186/186 variables loaded into SNUNet.
+2022-04-20 21:13:02 [INFO]      Start to evaluate(total_samples=3000, total_steps=3000)...
+miou:0.9510641630667505, F1-Score:[0.9937611  0.95535651]
+
+[04-20 21:14:43 MainThread @logger.py:242] Argv: tutorials/eval/snunet_eval.py --data_dir=../work/Real/subset --weight_path=../work/output/snunet/epoch_95/model.pdparams
+[04-20 21:14:43 MainThread @utils.py:79] WRN paddlepaddle version: 2.2.2. The dynamic graph version of PARL is under development, not fully tested and supported
+2022-04-20 21:14:44 [INFO]	10000 samples in file ../work/Real/subset/train.txt
+2022-04-20 21:14:44 [INFO]	3000 samples in file ../work/Real/subset/test.txt
+W0420 21:14:44.317277  4225 device_context.cc:447] Please NOTE: device: 0, GPU Compute Capability: 7.0, Driver API Version: 11.0, Runtime API Version: 10.1
+W0420 21:14:44.321807  4225 device_context.cc:465] device: 0, cuDNN Version: 7.6.
+2022-04-20 21:14:46 [INFO]	Loading pretrained model from ../work/output/snunet/epoch_95/model.pdparams
+2022-04-20 21:14:47 [INFO]	There are 186/186 variables loaded into SNUNet.
+2022-04-20 21:14:47 [INFO]	Start to evaluate(total_samples=3000, total_steps=3000)...
+miou:0.9511072251465974, F1-Score:[0.99376829 0.95539575]
+
+[04-20 21:15:30 MainThread @logger.py:242] Argv: tutorials/eval/snunet_eval.py --data_dir=../work/Real/subset --weight_path=../work/output/snunet/epoch_100/model.pdparams
+[04-20 21:15:30 MainThread @utils.py:79] WRN paddlepaddle version: 2.2.2. The dynamic graph version of PARL is under development, not fully tested and supported
+2022-04-20 21:15:31 [INFO]      10000 samples in file ../work/Real/subset/train.txt
+2022-04-20 21:15:31 [INFO]      3000 samples in file ../work/Real/subset/test.txt
+W0420 21:15:31.064793  4329 device_context.cc:447] Please NOTE: device: 0, GPU Compute Capability: 7.0, Driver API Version: 11.0, Runtime API Version: 10.1
+W0420 21:15:31.069233  4329 device_context.cc:465] device: 0, cuDNN Version: 7.6.
+2022-04-20 21:15:33 [INFO]      Loading pretrained model from ../work/output/snunet/epoch_100/model.pdparams
+2022-04-20 21:15:33 [INFO]      There are 186/186 variables loaded into SNUNet.
+2022-04-20 21:15:33 [INFO]      Start to evaluate(total_samples=3000, total_steps=3000)...
+miou:0.9511789327930941, F1-Score:[0.99377632 0.95546534]
+
