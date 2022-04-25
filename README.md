@@ -195,4 +195,5 @@ SNUNet-Paddle
 |模型名称| SNUNET-CD |
 |框架版本| PaddlePaddle==2.2.2|
 |应用场景| 遥感图像变化检测 |
+|在线体验|[【第六期论文复现赛-变化检测】SNUNet-CD](https://aistudio.baidu.com/aistudio/projectdetail/3888103)
 
